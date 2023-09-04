@@ -1,84 +1,157 @@
+.body{
+    background-image: url(/Afiche-Muni/img/tecnologia2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header{
-    border: inset;
+    display: flex;
+    flex-direction: column;
+    /* border: solid; */
     border-color: black;
 }
 
 .title{
-    border: inset;
+    display: flex;
+    justify-content: center;
+    /* border: solid; */
     border-color: black;
+    color: white;
 }
 
 .description{
-    border: inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: solid; */
     border-color: black;
+    color: white;
 }
 
 .main{
-    border: inset;
+    display: flex;
+    justify-content: center;
+    /* border: solid; */
     border-color: black;
 }
 
 .sidebar{
-    border: inset;
+    display: flex;
+    /* border: solid; */
     border-color: black;
 }
 
 .image-Box{
-    border: inset;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: bisque;
+    /* border: solid; */
     border-color: black;
 }
 
 #image1{
-    border: inset;
-    border-color: black;
+    display: flex;
+    /* border: solid;
+    border-color: black; */
 }
 
 #image2{
-    border: inset;
-    border-color: black;
+    display: flex;
+    /* border: solid;
+    border-color: black; */
 }
 
 #image3{
-    border: inset;
-    border-color: black;
+    display: flex;
+    /* border: solid;
+    border-color: black; */
 }
 
 .main-Box{
-    border: inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border:solid; */
     border-color: black;
 }
 
 .carrusel{
-    border: inset;
+    display: flex;
+    /* border: solid; */
     border-color: black;
 }
 
 .video{
-    border: inset;
+    display: flex;
+    /* border: solid; */
     border-color: black;
 }
 
 .footer{
-    border: inset;
+    background-image: url(/Afiche-Muni/img/tecnologia1.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: solid; */
+    border-color: black;
+}
+
+.footer-Box{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid; */
     border-color: black;
 }
 
 #logo1{
-    border: inset;
+    /* background-image: url(/Afiche-Muni/img/logo-muni.png);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    display: flex;
+    align-items: center;
+    /* border: solid; */
     border-color: black;
+    border-radius: 5px;
 }
 
 #inscription-Contact{
-    border: inset;
+    display: flex;
+    flex-direction: column;
+    /* border: solid; */
     border-color: black;
 }
 
 .message-Inscrib{
-    border: inset;
+    display: flex;
+    /* border: solid; */
     border-color: black;
 }
 
+#message-Motiv{
+    display: flex;
+}
+
+#button-Box{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#button-Ins{
+    display: flex;
+    height: 35%;
+}
+
 #logo2{
-    border: inset;
+    /* background-image: url(/Afiche-Muni/img/logo2-corto.png);
+    background-repeat: no-repeat; */
+    display: flex;
+    align-items: center;
+    /* border: solid; */
     border-color: black;
+    border-radius: 5px;
+}
+
+.prueba{
+    display: flex;
 }
